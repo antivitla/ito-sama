@@ -1,0 +1,89 @@
+/*
+
+	In the name of Maintainer of the World
+	Project: ITO-SAMA Clothes 
+	Project URL: http://clothes.antivitla.com
+	Description: CSS for fonts and content
+
+*/
+
+/* Content wide-typo typographics */
+
+.wide-typo h1, .wide-typo h2, .wide-typo h3, .wide-typo p {	margin-left: 17px; margin-right: 17px; }
+.wide-typo h1, .wide-typo h2, .wide-typo h3 { font-family: Georgia, Times New Roman, Times; text-align: center; color: #3b3d5a; }
+.wide-typo h1 {	font-size: 57px; margin-top: 0px; margin-bottom: 0px; }
+.wide-typo h2 {	font-size: 24px; margin-top: 8px; margin-bottom: 8px; }
+.wide-typo h3 {	font-size: 14px; margin-top: 15px; margin-bottom: 15px; font-style: italic; }
+.wide-typo p {
+	margin-top: 15px; margin-bottom: 15px;
+	font-family: Trebuchet MS, Arial; color: #3b3d5a; font-size: 15px; line-height: normal; text-indent: 30px;
+}
+.wide-typo ul, .wide-typo ol { margin-left: 17px; margin-right: 17px; list-style-position: outside; padding-left: 2em;  }
+.wide-typo ul ul, .wide-typo ol ol { margin-left: 0px; margin-right: 0px; }
+.wide-typo ul, .wide-typo ol  { font-family: Trebuchet MS, Arial; color: #3b3d5a; font-size: 15px; line-height: normal; }
+
+/* Content narrow-typo typographics */
+
+.narrow-typo { font-family: Trebuchet MS, Arial; color: #3b3d5a; }
+.narrow-typo ul { list-style-type: circle; }
+.narrow-typo h1, .narrow-typo h2, .narrow-typo p, .narrow-typo ul,  narrow-typo ol { margin-left: 17px; margin-right: 17px; }
+.narrow-typo ul { padding-left: 2em; }
+.narrow-typo ol { padding-left: 3em; }
+.narrow-typo li { font-size: 12px; }
+.narrow-typo h1 { 
+	margin-top: 15px; margin-bottom: 15px;
+	font-family: Georgia, Times New Roman, Times; font-size: 14px; font-weight: bold;	
+	text-align: center; 
+}
+.narrow-typo h2 {
+	margin-top: 15px; margin-bottom: 15px;
+	font-family: Trebuchet MS, Arial; font-size: 14px;
+	text-align: center;
+}
+.narrow-typo p {
+	margin-top: 15px; margin-bottom: 15px;
+	font-family: Trebuchet MS, Arial; font-size: 12px;	
+}
+
+.narrow-typo small { font-size: 10px; }
+.kod { color: #39C; }
+
+/* Common */
+
+.wide-typo p.center,
+.narrow-typo p.center{ 
+	display: block;
+	margin-left: 0px; margin-right: 0px;
+	text-indent: 0; 
+	text-align: center;   
+}
+.wide-typo p.center img,
+.narrow-typo p.center img{ 
+	display: block; 
+	margin-left: auto; margin-right: auto; 
+}
+.wide-typo .image-row,
+.narrow-typo .image-row { text-align: left; margin: 0px; text-indent: 0px; }
+.wide-typo .image-row img,
+.narrow-typo .image-row img { display: inline; padding-left: 5px; padding-bottom: 5px; }
+
+/* COMMON */
+
+.container1 { position: relative; }
+.container1 a { text-decoration: none; cursor: pointer; }
+.container1 a span { display: block; float: left; width: 50px; }
+.container1 a .descr { position: absolute; top: 20px; left: 0px; display: none;  }
+.container1 a:hover .descr { display: block; }
+
+a.thickbox { text-decoration: none; border-bottom: dashed 1px; }
+a.image { border: 0px; }
+
+.lj-user-icon { display: inline; vertical-align: bottom; }
+.narrow-typo .lj-user-icon { vertical-align: text-top; }
+.wide-typo .lj-user-icon { vertical-align: bottom; }
+.center-text { text-align: center; }
+
+p.small-text { font-size: 10px; }
+.small-text { font-size: 10px; }
+
+.order-window {  }

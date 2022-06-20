@@ -1,0 +1,98 @@
+/*
+
+	In the name of Maintainer of the World
+	Project: ITO-SAMA Clothes 
+	Project URL: http://clothes.antivitla.com
+	Description: main CSS document
+
+*/
+
+/* Clear */
+
+body, th, tbody, td, tr, table, map, area, img { margin: 0px; padding: 0px; }
+img { border: 0px; }
+p, h1, h2, h3, h4, h5, h6 { 
+	margin: 0px; padding: 0px; 
+	font-weight: normal;
+}
+
+/* Everywhere */
+
+.no-style { display: none; }
+.center { text-align: center; }
+a {	color: #607eaa;	text-decoration: underline; }
+
+/* Body */
+
+body { 
+	background-color: white; background-image: url("_markup/background-flowers.jpg"); background-position: top center;
+	font-size: 12px;
+}
+#header, #footer, .content-wrapper { width: 1070px; margin: 0px auto 0px auto; }
+.content-wrapper { width: 910px; }
+
+/* Header */
+
+#header { height: 310px; }
+#header img { display: block; }
+
+/* Footer */
+
+#footer { 
+	height: 400px; padding-top: 1px; 
+	background-image: url("_markup/footer.png"); background-repeat: no-repeat;
+	font-family: Georgia, Times New Roman, Times; font-size: 11px; color: #80878b; 
+}
+#footer ul { 
+	display: block; 
+	height: 60px; padding: 0px; margin: 135px 80px 0px 80px; 
+	list-style: none; 
+}
+#footer li { 
+	display: block; float: left; 
+	width: 33%; height: 60px;  
+}
+#footer li a { 
+	display: block; 
+	height: 100%; 
+	text-decoration: none;
+	color: #80878b; 
+}
+#footer li a:hover { color: #d9d8d5; text-decoration: none; }
+#footer .ito-sama {	
+	text-align: left; 
+	background-image: url('_markup/footer-ito-sama.gif'); background-position: left bottom; background-repeat: no-repeat;
+}
+#footer .year2009 {	
+	text-align: center;
+	background-image: url('_markup/footer-2009.gif'); background-position: center bottom; background-repeat: no-repeat;
+}
+#footer .mr-woodman { 
+	text-align: right; 
+	background-image: url('_markup/footer-mr-woodman.gif'); background-position: right bottom; background-repeat: no-repeat;
+}
+#footer .download-wallpaper { 
+	margin-top: 30px; margin-right: 80px; 
+	font-size: 11px; 
+	text-align: right;
+}
+#footer .foto-credits {
+	margin-top: 40px; margin-left: 80px;
+}
+#footer .foto-credits .name { font-weight: bold; }
+#footer .download-wallpaper a {	color: #2e7caa; text-decoration: none; border: none; }
+#footer .download-wallpaper a:visited {	color: #8742aa; }	
+#footer .download-wallpaper a:hover { text-decoration: underline; }
+#footer .download-wallpaper .emphase { font-style: normal; font-weight: bold; color: #fc605d; }
+
+/* Content */
+
+.content-wrapper { 
+	padding: 0px 80px 0px 80px;
+	background-image: url('_markup/borders.png'); background-repeat: repeat-y;
+}
+#content { 
+	float: left; 
+	width: 100%; 
+	background-image: url("_markup/content-content.gif"); background-repeat: repeat;
+}

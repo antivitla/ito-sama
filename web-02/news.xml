@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+	<title>Проишествия в магазине-ателье "Ito-sama"</title>
+	<atom:link href="http://ito-sama.ru/news.xml" rel="self" type="application/rss+xml" />
+	<link>http://ito-sama.antivitla.com</link>
+	<description>Новое на сайте, мои швейные планы и другие заманчивые обещания.</description>
+	<item>
+		<title>Магазин-ателье опять открыт!</title>
+		<link>http://ito-sama.ru/</link>
+		<description>Кончился мой отпуск, началась новая рабочая сессия 2010.</description>
+	</item>
+	<item>
+		<title>Обновление каталога, новые модели, новые фотки! :)</title>
+		<link>http://ito-sama.antivitla.com/catalog/</link>
+		<description>Штаны, юбка, жилетка! Женские фотки! Вы до сих пор читаете эту мессагу и не на сайте, глупыши?! :))</description>
+	</item>
+	<item>
+		<title>Присылайте свои фотки в моей одёжке</title>
+		<link>http://ito-sama.antivitla.сom/</link>
+		<description>Заказчик! :)) Получил у меня свою одёжку? Знаю что про это нереально вспомнить, но когда тебя в ней сфоткают, присылай эту фотку мне - для раздела фоток пользователей в моей одёжке. Напоминалка про это на главной странице.</description>
+	</item>
+</channel>
+
+</rss>

@@ -1,0 +1,31 @@
+/*
+
+	In the name of Maintainer of the World
+	Project: ITO-SAMA Clothes 
+	Project URL: http://clothes.antivitla.com
+	Description: CSS for constructing content boxes
+
+*/
+
+.bar { padding: 0px; margin: 0px; float: left; }
+.single { width: 303px; }
+.double { width: 606px; }
+.half { width: 454px; }
+.quarter { width: 226px; }
+.triple-quarter {width: 680px; }
+.full { width: 909px; }
+.safepin-divider { height: 40px; font-size: 10px; text-align: center; text-indent: 0;margin-top: 1.7em;	
+	background-image:url('_markup/safe-pin.gif'); background-position: center; background-repeat: no-repeat; }
+.flower-divider {height: 30px; font-size: 10px; text-align: center; text-indent: 0;margin-top: 1.7em;
+	background-image: url('_markup/flower.gif'); background-position: center; background-repeat: no-repeat; }
+.article-bar { background-image: url("_markup/bar-divider.gif"); background-repeat: repeat-y; background-position: top right; }
+.article-bar p, 
+.article-bar h1,
+.article-bar h2, 
+.article-bar h3,
+.article-bar .center-bar,
+.article-bar .safepin-divider,
+.article-bar .flower-divider {	padding-right: 30px; }
+.triple-quarter .center-bar p { padding-right: 0px; }
+.center-bar { float: none; margin-left: auto;	margin-right: auto; }
+.csshack-clearer { clear: both; }

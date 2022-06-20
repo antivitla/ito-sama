@@ -1,0 +1,101 @@
+/*
+	Project: Body Searcher
+	Author & coder: Mr.Woodman
+	
+*/
+
+html { background: #deddc2; }
+body { 
+	background: #deddc2; 
+	color: #92906b; font-family: Trebuchet MS, Tahoma, Arial; font-size: 13px; 
+}
+#page { 
+	position: relative; width: 970px; 
+	margin-left: auto; margin-right: auto; margin-top: 50px; padding-bottom: 70px; 
+	text-align: center;
+	background: transparent;
+}
+#copyrights { position: absolute; bottom: 20px; left: 0%; width: 100%; text-align: center; font-size: 9px; }
+h1 { margin-bottom: 1.5em; font-size: 30px; font-weight: normal; }
+a { color: #629bcf; text-decoration: underline; }
+a[name] { background: transparent; color: #629bcf; text-decoration: none; border: solid #92906b 0px; }
+a[name]:hover { background: #629bcf; color: #fff; text-decoration: none; }
+p { margin: 0px; }
+
+#userData { 
+	position: absolute; left: 0px; top: 90px;
+	width: 100%;
+	padding: 10px 0px; 
+	text-align: center;
+	
+}
+.userName { font-size: 15px; font-style: italic;  }
+.userSize { font-size: 11px; }
+.userSize em { font-style: normal; color: #000; }
+
+p.info { text-align: center;}
+a.change-bHeight, 
+a.change-bChest, 
+a.change-bWaistHip { font-size: 11px; }
+#step-1 a[name] { 
+	padding: 5px 20px 5px 20px; margin-left: 10px; margin-right: 10px; 
+	font-size: 15px;
+}
+#step-2 a[name], 
+#step-3 a[name], 
+#step-4 a[name] { 
+	padding: 2px 5px 2px 5px; margin-left: 0px; margin-right: 0px; 
+	font-size: 13px; 
+}
+#step-1, #step-2, #step-3, #step-4, #step-5, #copyrights/*, #wait*/ { display: none; }
+body.step-1 #step-1 { display: block; }
+body.step-2 #step-2 { display: block; }
+body.step-3 #step-3 { display: block; }
+body.step-4 #step-4 { display: block; }
+body.step-5 #step-5 { display: block; }
+/*body.step-5 #wait { display: block; }*/
+body.final #copyrights { display: block; }
+
+
+#sizeTable { position: relative; display: none; width: 100%; height: auto; margin-top: 0px; }
+#sizeTable img { position: absolute; top: 0px; left: 0px; background-repeat: no-repeat; }
+#sizeTable .vGroup { position: absolute; display: none; }
+.vGroup dl, .vGroup dd, .vGroup dt { margin: 0px; padding: 0px; }
+.vGroup { width: 140px; font-size: 10px; line-height: 14px; }
+.vGroup dd, .vGroup dt { display: block; float: left; }
+.vGroup dd { width: 60px; margin-right: 20px; clear: left; text-align: right; }
+.vGroup dt { width: 60px; font-weight: bold; color: #000; text-align: left; }
+.vGroup .title { font-size: 9px; color: #92906b; font-weight: normal; margin-bottom: 1em; }
+.vGroup .title strong { color: #000; font-size: 11px; }
+.final #sizeTable { display: block; }
+
+/* Men layout */
+.man#sizeTable { 
+	width: 889px; height: 1070px; 
+	margin-left: auto; margin-right: auto;
+	background: url('images/man-layout.gif') no-repeat; 
+}
+.man #vGroup1 { display: block; left: 261px; top: 152px; }
+.man #vGroup2 { display: block; left: 525px; top: 10px; }
+.man #vGroup3 { display: block; left: 525px; top: 205px; }
+.man #vGroup4 { display: block; left: 135px; top: 419px; }
+.man #vGroup5 { display: block; left: 372px; top: 636px; }
+.man #vGroup6 { display: block; left: 525px; top: 419px; }
+.man #vGroup7 { display: block; left: 655px; top: 838px; }
+.man #vGroup8 { display: block; left: 244px; top: 838px; }
+
+/* Women layout */
+.woman#sizeTable { 
+	width: 899px; height: 900px;
+	margin-left: auto; margin-right: auto;
+	background: url('images/woman-layout.gif') no-repeat; 
+}
+.woman #vGroup1 { display: block; left: 277px; top: 184px; }
+.woman #vGroup2 { display: block; left: 541px; top: 19px; }
+.woman #vGroup3 { display: block; left: 541px; top: 225px; }
+.woman #vGroup4 { display: block; left: 130px; top: 471px; }
+.woman #vGroup5 { display: block; left: 130px; top: 723px; }
+.woman #vGroup6 { display: block; left: 541px; top: 471px; }
+.woman #vGroup7 { display: block; left: 541px; top: 654px; }
+
+

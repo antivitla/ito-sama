@@ -1,0 +1,171 @@
+/*
+	Project: Ito-sama
+	Document: Main stylesheet
+    Coder: http://mr-woodman.ru
+*/
+
+/* Clear */
+img { border: 0px; }
+body, th, tbody, td, tr, table, map, area, img { margin: 0px; padding: 0px; }
+p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; font-weight: normal; }
+
+/* Common */
+.no-style { display: none; }
+.center { text-align: center; }
+.deleted { text-decoration: line-through; }
+.csshack-clearer { clear: both; }
+a {	color: #607eaa;	text-decoration: underline; }
+a:hover { text-decoration: none; }
+a.thickbox { text-decoration: none; border-bottom: dashed 1px; }
+.lj-user-icon { display: inline; vertical-align: bottom; }
+.kod { color: #39C; }
+.pic-info { margin-top: 0px; text-align: center; font-style: italic; }
+
+/* Layout */
+body { 
+	background: white url("background-nitkas.jpg") top center; 
+	font-size: 12px; }
+#header { width: 1070px; margin: 0px auto 0px auto; } 
+#footer { width: 1070px; margin: 0px auto 0px auto; }
+.content-wrapper { width: 910px; margin: 0px auto 0px auto;}
+
+/* Header */
+#header { height: 310px; }
+#header img { display: block; }
+
+/* Footer */
+#footer { 
+	height: 400px; padding-top: 1px; 
+	background: url("footer.png") no-repeat; 
+	font: 11px Georgia, Times New Roman, Times; color: #80878b; }
+#footer ul { 
+	display: block; height: 60px; padding: 0px; margin: 135px 80px 0px 80px; 
+	list-style: none; }
+#footer li { display: block; float: left; width: 33%; height: 60px; }
+#footer li a { 
+	display: block; height: 100%; 
+	text-decoration: none; color: #80878b; }
+#footer li a:hover { color: #d9d8d5; text-decoration: none; }
+#footer .ito-sama {	
+	text-align: left; 
+	background: url('footer-ito-sama.gif') no-repeat left bottom; }
+#footer .year2009 {	
+	text-align: center; 
+	background: url('footer-2009.gif') no-repeat center bottom; `}
+#footer .mr-woodman { 
+	text-align: right; 
+	background: url('footer-mr-woodman.gif') no-repeat right bottom; }
+#footer .download-wallpaper { 
+	margin-top: 30px; margin-right: 80px; 
+	font-size: 11px; text-align: right; }
+#footer .foto-credits { margin-top: 40px; margin-left: 80px; }
+#footer .foto-credits .name { font-weight: bold; }
+#footer .download-wallpaper a {	
+	color: #2e7caa; text-decoration: none; border: none; }
+#footer .download-wallpaper a:visited {	color: #8742aa; }
+#footer .download-wallpaper a:hover { text-decoration: underline; }
+#footer .download-wallpaper .emphase { 
+	font-style: normal; font-weight: bold; color: #fc605d; }
+
+/* Constructor */
+.bar { padding: 0px; margin: 0px; float: left; }
+.single { width: 303px; }
+.double { width: 606px; }
+.half { width: 454px; }
+.quarter { width: 226px; }
+.triple-quarter {width: 680px; }
+.full { width: 909px; }
+.safepin-divider { 
+	height: 40px; margin-top: 1.7em;	
+	font-size: 10px; text-align: center;
+	background: url('safe-pin.gif') no-repeat center; }
+.flower-divider {
+	height: 40px; margin-top: 1.7em;
+	font-size: 10px; text-align: center;
+	background: url('flower.gif') no-repeat center; }
+.red-flower-divider {
+	height: 40px; margin-top: 1.7em;
+	font-size: 10px; text-align: center;
+	background: url('red-flower.gif') no-repeat center; }
+.triple-quarter .center-bar p { padding-right: 0px; }
+.center-bar { float: none; margin-left: auto; margin-right: auto; }
+
+/* Content */
+.content-wrapper { 
+	padding: 0px 80px 0px 80px; 
+	background: url('borders.png') repeat-y;}
+#content { 
+	float: left; width: 100%; 
+	background-image: url("content-content.gif"); }
+
+/* Wide Bar */
+.wide-typo h1, .wide-typo h2, .wide-typo h3, .wide-typo p {	
+	margin-left: 17px; margin-right: 17px; }
+.wide-typo h1, .wide-typo h2, .wide-typo h3 { 
+	font-family: Georgia, Times New Roman, Times; text-align: center; color: #3b3d5a; }
+.wide-typo h1 {	
+	margin-top: 0px; margin-bottom: 0px;
+	font-size: 57px; }
+.wide-typo h2 {	
+	margin-top: 8px; margin-bottom: 8px;
+	font-size: 24px; }
+.wide-typo h3 {	
+	margin-top: 15px; margin-bottom: 15px;
+	font-size: 14px; font-style: italic; }
+.wide-typo p {
+	margin-top: 15px; margin-bottom: 15px;
+	font-family: Trebuchet MS, Arial; color: #3b3d5a; font-size: 15px; 
+	text-indent: 30px; }
+.wide-typo ul, .wide-typo ol { 
+	margin-left: 17px; margin-right: 17px;  padding-left: 2em;
+	list-style-position: outside; }
+.wide-typo ul ul, .wide-typo ol ol { 
+	margin-left: 0px; margin-right: 0px; }
+.wide-typo ul, .wide-typo ol  { 
+	font-family: Trebuchet MS, Arial; font-size: 15px;
+	color: #3b3d5a; }
+
+/* Narrow Bar */
+.narrow-typo { font-family: Trebuchet MS, Arial; color: #3b3d5a; }
+.narrow-typo ul { list-style-type: circle; }
+.narrow-typo h1, .narrow-typo h2, .narrow-typo p, .narrow-typo ul,  narrow-typo ol { 
+	margin-left: 17px; margin-right: 17px; }
+.narrow-typo ul { padding-left: 2em; }
+.narrow-typo ol { padding-left: 3em; }
+.narrow-typo li { font-size: 12px; }
+.narrow-typo h1 { 
+	margin-top: 15px; margin-bottom: 15px;
+	font-family: Georgia, Times New Roman, Times; font-size: 14px; font-weight: bold;
+	text-align: center; }
+.narrow-typo h2 {
+	margin-top: 15px; margin-bottom: 15px;
+	font-family: Trebuchet MS, Arial; font-size: 14px;
+	text-align: center; }
+.narrow-typo p {
+	margin-top: 15px; margin-bottom: 15px;
+	font-family: Trebuchet MS, Arial; font-size: 12px; }
+.narrow-typo small { font-size: 10px; }
+
+/* Wide and Narrow Bar */
+.wide-typo p.center, .narrow-typo p.center{ 
+	display: block;
+	margin-left: 0px; margin-right: 0px;
+	text-indent: 0; 
+	text-align: center; }
+.wide-typo p.center img, .narrow-typo p.center img { 
+	display: block; 
+	margin-left: auto; margin-right: auto; }
+a.buy-button {
+	display: block; width: 183px; height: 101px; margin: 0px auto;
+	background: url(buy.gif) no-repeat center;  }	
+.wide-typo .image-row, .narrow-typo .image-row { 
+	text-align: left; margin: 0px; text-indent: 0px; }
+.wide-typo .image-row img,
+.narrow-typo .image-row img { display: inline; padding-left: 5px; padding-bottom: 5px; }
+.narrow-typo .lj-user-icon { vertical-align: text-top; }
+.wide-typo .lj-user-icon { vertical-align: bottom; }
+
+/* Mahroma */
+.mahromized { 
+	display: block; 
+	background-repeat: no-repeat; background-position: center center; }
